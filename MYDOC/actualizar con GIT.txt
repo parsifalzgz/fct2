@@ -1,0 +1,34 @@
+
+https://git-scm.com/book/es/v1/Fundamentos-de-Git-Trabajando-con-repositorios-remotos
+
+
+
+# añadir archivos a nuestro repositorio
+git add *
+
+
+
+# hacer un commit de los cambios
+git commit -m "añadido un readme.txt"
+
+# subir lo q tenemos al repositorio remoto web (origin) master-> rama
+git push origin master       
+
+
+
+
+
+###############################################
+como he sincronizado mi repositorio
+SOBRE LA CLAVE PUBLICA Q TENGO Q TENER EN LA WEB
+
+boton izdo menu contextual sobre el escritorio y le he dado GIT BASH HERE
+
+
+clip < ~/.ssh/id_rsa.pub
+mas info en 
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+la he pegado en OPCIONES -> SSH > AÑADIR CLAVE PUBLICA.
+
+
